@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Couleurs */
+:root {
+    --primary-red: #DC2626;
+    --dark-red: #991B1B;
+    --darker-red: #7F1D1D;
+    --darkest-red: #450A0A;
+}
+
+.gradient-red {
+    background: linear-gradient(135deg, #DC2626 0%, #991B1B 100%);
+}
+
+.gradient-dark-red {
+    background: linear-gradient(135deg, #7F1D1D 0%, #450A0A 100%);
+}
+
+.btn-glow {
+    box-shadow: 0 0 30px rgba(220, 38, 38, 0.4);
+    transition: all 0.3s ease;
+}
+
+.btn-glow:hover {
+    box-shadow: 0 0 50px rgba(220, 38, 38, 0.6);
+    transform: translateY(-2px);
+}
+
+.feature-card {
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-8px);
+}
+
+.pricing-card {
+    transition: all 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+}
+
+.pricing-card.featured {
+    transform: scale(1.05);
+}
+
+.pricing-card.featured:hover {
+    transform: scale(1.05) translateY(-10px);
+}
+
+.smooth-scroll {
+    scroll-behavior: smooth;
+}
+
+@keyframes bounce-slow {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}
+
+.bounce-slow {
+    animation: bounce-slow 3s infinite;
+}
+
+@keyframes pulse-float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 40;
+    animation: pulse-float 2s infinite;
+}
+
+.whatsapp-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #25D366 0%, #20BA5A 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.15);
+    box-shadow: 0 6px 30px rgba(37, 211, 102, 0.6);
+}
+
+.badge-popular {
+    background: linear-gradient(135deg, #DC2626 0%, #991B1B 100%);
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.slogan {
+    font-size: 1.875rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #DC2626 0%, #991B1B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.icon-box {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    font-size: 2.5rem;
+}
+
+@media (max-width: 768px) {
+    .whatsapp-float {
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .whatsapp-btn {
+        width: 55px;
+        height: 55px;
+        font-size: 28px;
+    }
+
+    .slogan {
+        font-size: 1.5rem;
+    }
+}
