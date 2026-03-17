@@ -2,7 +2,7 @@
     <div class="smooth-scroll bg-white">
         <!-- WhatsApp Floating Button -->
         <a
-            href="https://wa.me/2250787602132"
+            href="https://wa.me/2250102221394"
             target="_blank"
             class="whatsapp-float"
             title="Contactez-nous sur WhatsApp"
@@ -80,7 +80,7 @@
                             </li>
                             <li>
                                 <a
-                                    href="https://wa.me/2250787602132&text=Bonjour%20Whataa%2C%20j'ai%20besoin%20d'aide%20pour%20..."
+                                    href="https://wa.me/2250102221394&text=Bonjour%20Whataa%2C%20j'ai%20besoin%20d'aide%20pour%20..."
                                     target="_blank"
                                     class="hover:text-white transition">
                                     WhatsApp

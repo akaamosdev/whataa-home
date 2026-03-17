@@ -201,7 +201,7 @@
                         📧 support@whataa.net
                     </a>
                     <a
-                        href="https://wa.me/2250787602132&text=Bonjour%20Whataa%2C%20j'ai%20une%20question%20sur%20votre%20logiciel."
+                        href="https://wa.me/2250102221394&text=Bonjour%20Whataa%2C%20j'ai%20une%20question%20sur%20votre%20logiciel."
                         target="_blank"
                         class="border-2 border-green-500 text-green-500 font-bold py-3 px-8 rounded-full hover:bg-green-500 hover:text-white transition"
                     >

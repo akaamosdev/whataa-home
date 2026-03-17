@@ -14,15 +14,28 @@
                     <div class="p-8">
                         <h3 class="text-2xl font-bold text-gray-900 mb-2">🎯 Commerçant</h3>
                         <p class="text-gray-600 mb-6 font-semibold">Licence Unique</p>
-                        <div class="mb-8">
+                        <div class="">
                             <p class="text-sm text-gray-500">À partir de</p>
-                            <span class="text-4xl font-black text-gray-900">50 000 FCFA</span>
-                            <p class="text-gray-600 mt-2"> Par An</p>
+                            <span class="text-4xl font-black text-gray-900">15 000 FCFA</span>
+                            <p class="text-gray-600 mt-2 line-through"> 50 000 FCFA/An</p>
                         </div>
-                        <a href="/docs/Whataa.zip" target="_blank" @click="counterDownload('starter')"
-                            class="w-full block text-center text-md bg-red-200 text-red-900 font-bold py-3 px-6 rounded-full mb-8 hover:bg-red-300 transition">
-                            📥 Télécharger Gratuitement
-                        </a>
+                        <div
+                            class="w-full block text-center text-md bg-red-700 text-white font-bold py-1 px-3
+                            rounded-full transition">
+                            Télécharger Gratuitement
+                        </div>
+                        <div class="flex space-x-2 justify-between my-4">
+                            <a href="/docs/Whataa.zip" target="_blank" @click="counterDownload('starter')"
+                               class="bg-black text-white font-bold py-1 px-2 rounded-full text-md
+                               flex items-center justify-center ">
+                                📥 Windows
+                            </a>
+                            <a href="/docs/macbook/Whataa.dmg" target="_blank" @click="counterDownload('starter')"
+                               class=" bg-black text-white font-bold py-1 px-2 rounded-full text-md
+                               flex items-center justify-center gap-2">
+                                📥 MacBook
+                            </a>
+                        </div>
                         <div class="space-y-4">
                             <div class="flex items-center gap-3">
                                 <span class="text-xl text-red-600">✔️</span>
