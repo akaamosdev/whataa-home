@@ -16,7 +16,7 @@
                         <p class="text-gray-600 mb-6 font-semibold">Licence Unique</p>
                         <div class="">
                             <p class="text-sm text-gray-500">À partir de</p>
-                            <span class="text-4xl font-black text-gray-900">15 000 FCFA</span>
+                            <span class="text-4xl font-black text-gray-900">25 000 FCFA</span>
                             <p class="text-gray-600 mt-2 line-through"> 50 000 FCFA/An</p>
                         </div>
                         <div

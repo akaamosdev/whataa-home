@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>Mise a jour automatique de Whataa</title>
+        <description>
+            Une nouvelle du logiciel whataa est disponible veuillez l'installer pour bénéficier des corrections de bug
+        </description>
+        <language>fr</language>
+        <item>
+            <title>Version 1.8.1</title>
+            <!-- For the macOS item, it is recommended to add 'sparkle:version' and 'sparkle:shortVersionString' to the item node, rather than as part of the enclosure. -->
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.8.1</sparkle:shortVersionString>
+            <sparkle:releaseNotesLink>
+                https://whataa.net/release_notes.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Samedi 28 mars 2025 12:00:00 +0800</pubDate>
+            <enclosure url="https://whataa.net/Whataa.dmg"
+                       sparkle:edSignature="Ckjbeew9z01TFKmxoExIiO7rOgVK9f8lbRv7LwW6DtGfqzzwa2MKiIcRYA8nT+H7ykqYe0K037eH+pOZdAE3Cw=="
+                       sparkle:os="macos"
+                       length="31725600"
+                       type="application/octet-stream" />
+        </item>
+        <item>
+            <title>Version 1.8.1</title>
+            <sparkle:releaseNotesLink>
+                https://whataa.net/release_notes.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Samedi 28 mars 2025 12:00:00 +0800</pubDate>
+            <enclosure url="https://whataa.net/whataa.exe"
+                       sparkle:version="1.8.1"
+                       sparkle:os="windows"
+                       length="13400992"
+                       type="application/octet-stream" />
+        </item>
+    </channel>
+</rss>
